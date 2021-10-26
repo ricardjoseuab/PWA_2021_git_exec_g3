@@ -9,8 +9,8 @@ h2 {
 }
 
 p {
-  margin-top: 0px;
-  margin-bottom: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .base {
@@ -20,18 +20,23 @@ p {
 }
 
 .bloco1 {
+  display: inline;
   width: 200px;
   float: left;
   background-color: orange;
 }
 
 .bloco2 {
+  display: inline;
   background-color: green;
   width: 500px;
   float: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.bloco3 {
+.bloco3 { 
+  display: inline;
   background-color: red;
   margin-left: 700px;
 }
