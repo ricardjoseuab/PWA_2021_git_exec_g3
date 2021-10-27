@@ -1,1 +1,43 @@
- 
+body {
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  margin: 0 !important;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.base {
+  width: 960px;
+  margin: auto;
+  background-color: #eee;
+}
+
+.bloco1 {
+  display: inline;
+  width: 25%;
+  float: left;
+  background-color: orange;
+}
+
+.bloco2 {
+  display: inline;
+  width: 40%;
+  background-color: green;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bloco3 { 
+  display: inline;
+  width: 25%;
+  float: right;
+  background-color: red;
+}
